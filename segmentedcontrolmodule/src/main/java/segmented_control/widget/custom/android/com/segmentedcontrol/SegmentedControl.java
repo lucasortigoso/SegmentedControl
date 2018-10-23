@@ -25,7 +25,7 @@ import view_component.lib_android.com.view_component.base_view.layouts.Component
  * /*     Attributes
  * <attr name="distributeEvenly" format="boolean" /> {@link #setDistributeEvenly(boolean)}
  * <attr name="columnCount" format="integer" /> {@link #setColumnCount(int)}
- * <attr name="segments" format="reference" /> {@link #addSegments(Object[])} {@link #addSegments(List)}
+ * <attr name="segments" format="reference" /> {@link #addSegments(Object[])}
  * <attr name="selectedStrokeColor" format="color" /> {@link #setSelectedStrokeColor(int)}
  * <attr name="unSelectedStrokeColor" format="color" /> {@link #setUnSelectedStrokeColor(int)}
  * <attr name="strokeWidth" format="dimension" />{@link #setStrokeWidth(int)}
@@ -350,9 +350,9 @@ public class SegmentedControl<D> extends ComponentFrameLayout<SegmentedControlVi
      *
      * @param segmentData, specified list Data type
      */
-    public void addSegments(List<D> segmentData) {
-        getControllerComponent().addSegments(segmentData);
-    }
+//    public void addSegments(List<D> segmentData) {
+//        getControllerComponent().addSegments(segmentData);
+//    }
 
     /**
      * @param willDistributeEvenly, true each section width with will be equal to each other,
