@@ -250,10 +250,10 @@ class SegmentedControlControllerComponent<D> extends ControllerComponent<Segment
         getViewComponent().verticalSectionLayout.withAdapter(new SegmentRowAdapter(adapter));
     }
 
-    void addSegments(D[] segmentDataArray) {
-        if (segmentDataArray == null || segmentDataArray.length == 0) return;
-        addSegments(new ArrayList<>(Arrays.asList(segmentDataArray)));
-    }
+//    void addSegments(D[] segmentDataArray) {
+//        if (segmentDataArray == null || segmentDataArray.length == 0) return;
+//        addSegments(new ArrayList<>(Arrays.asList(segmentDataArray)));
+//    }
 
     void addSegments(List<D> segmentDataList) {
         if (segmentDataList == null || segmentDataList.size() == 0) return;
